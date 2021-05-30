@@ -16,7 +16,7 @@ SUBARCH="arm64"
 export ARCH SUBARCH
 export KBUILD_BUILD_USER=HadeS
 export KBUILD_BUILD_HOST=DroneCI
-export TZ='IST'
+export TZ='CEST'
 
 KERNEL_IMG=$KERNEL_DIR/out/arch/$ARCH/boot/Image.gz-dtb
 
